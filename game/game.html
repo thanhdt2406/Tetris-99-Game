@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tetris 99 Game</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/button.css">
+    <link rel="stylesheet" href="../css/gameOver.css">
+</head>
+<body>
+<canvas id="game"></canvas>
+<div class="gameInformation">
+    <div>
+        <img class="gameImg" src="../img/tetris99.png" alt="Tetris99">
+    </div>
+    <div class="divInformation">
+        <p>score</p>
+        <p id="score"></p>
+    </div>
+    <div>
+        <img class="gameGif"
+             src="https://r2.community.samsung.com/t5/image/serverpage/image-id/710987i6825946F90BE2645?v=1.0"
+             alt="Funny Gif">
+    </div>
+    <div>
+        <img class="gameGif"
+             src="https://cdn.dribbble.com/users/1792975/screenshots/5655046/tetris_2.gif"
+             alt="Funny Gif">
+    </div>
+    <div>
+        <button class="btn" type="button" id="resetGame" onclick="g.restart()">reset</button>
+    </div>
+</div>
+<div id="gameOver" class="c-glitch"
+     style="background-image: url('https://i.pinimg.com/originals/b1/52/8a/b1528a906e3974ec379850741b4236e9.jpg');">
+    <div class="c-glitch__img"
+         style="background-image: url('https://i.pinimg.com/originals/b1/52/8a/b1528a906e3974ec379850741b4236e9.jpg');"></div>
+    <div class="c-glitch__img"
+         style="background-image: url('https://i.pinimg.com/originals/b1/52/8a/b1528a906e3974ec379850741b4236e9.jpg');"></div>
+    <div class="c-glitch__img"
+         style="background-image: url('https://i.pinimg.com/originals/b1/52/8a/b1528a906e3974ec379850741b4236e9.jpg');"></div>
+    <div class="c-glitch__img"
+         style="background-image: url('https://i.pinimg.com/originals/b1/52/8a/b1528a906e3974ec379850741b4236e9.jpg');"></div>
+    <div class="c-glitch__img"
+         style="background-image: url('https://i.pinimg.com/originals/b1/52/8a/b1528a906e3974ec379850741b4236e9.jpg');"></div>
+</div>
+</body>
+<script type="text/javascript" src="../js/const.js"></script>
+<script type="text/javascript" src="../js/dot.js"></script>
+<script type="text/javascript" src="../js/brick.js"></script>
+<script type="text/javascript" src="../js/board.js"></script>
+<script type="text/javascript" src="../js/game.js"></script>
+</html>
