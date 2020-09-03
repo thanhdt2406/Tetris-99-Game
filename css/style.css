@@ -1,0 +1,65 @@
+body{
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20190703/pngtree-vector-background-abstract-polygon-triangle-image_282967.jpg");
+}
+canvas {
+    display: block;
+    margin: 0 auto;
+}
+
+.gameInformation {
+    left: 63%;
+    position: absolute;
+    border-width: 1px;
+    border-color: black;
+    width: 150px;
+    height: 800px;
+}
+
+.divInformation {
+    letter-spacing: 3px;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    height: 100px;
+    width: 80%;
+    margin: 0 auto;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: inherit;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 5s ease infinite;
+}
+
+.gameImg {
+    width: 120px;
+    height: 120px;
+    margin: 30px auto;
+    display: block;
+}
+
+.gameGif {
+    width: 120px;
+    height: 160px;
+    margin: 20px auto;
+    display: block;
+}
+:root {
+    --colorShadeA: rgb(106, 163, 137);
+    --colorShadeB: rgb(121, 186, 156);
+    --colorShadeC: rgb(150, 232, 195);
+    --colorShadeD: rgb(187, 232, 211);
+    --colorShadeE: rgb(205, 255, 232);
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
