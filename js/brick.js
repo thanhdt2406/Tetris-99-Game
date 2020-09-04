@@ -25,7 +25,6 @@ class Brick {
         });
         return thisBrickCanMoveLeft;
     }
-
     moveLeft() {
         if (this.canMoveLeft()) {
             this.col--;
@@ -44,7 +43,6 @@ class Brick {
         });
         return thisBrickCanMoveRight;
     }
-
     moveRight() {
         if (this.canMoveRight()) {
             this.col++;
@@ -63,7 +61,6 @@ class Brick {
         });
         return thisBrickCanFall;
     }
-
     fall() {
         if (this.canFall()) {
             this.row++;

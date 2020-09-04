@@ -71,7 +71,7 @@ class Game {
     loop() {
         this.draw();
         this.showScore.innerHTML = this.score;
-        setTimeout(() => this.loop(), 50);
+        setTimeout(() => this.loop(), 1);
     }
 
     clearScreen() {

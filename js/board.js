@@ -10,7 +10,7 @@ class Board {
 
     isRowFull(row) {
         let full = true;
-        for (let col = 0; col < NUM_ROWS; col++) {
+        for (let col = 0; col < NUM_COLS; col++) {
             if (this.isEmptyCell(row, col)) {
                 full = false;
             }
