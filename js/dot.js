@@ -9,12 +9,10 @@ class Dot {
     hitLeft() {
         return this.col === 0;
     }
-
     canMoveLeft() {
         if (this.hitLeft()) return false;
         return this.game.board.isEmptyCell(this.row, this.col - 1);
     }
-
     moveLeft() {
         if (this.canMoveLeft()) {
             this.col--;
@@ -24,12 +22,10 @@ class Dot {
     hitRight() {
         return this.col === NUM_COLS - 1;
     }
-
     canMoveRight() {
         if (this.hitRight()) return false;
         return this.game.board.isEmptyCell(this.row, this.col + 1);
     }
-
     moveRight() {
         if (this.canMoveRight()) {
             this.col++;
@@ -39,12 +35,10 @@ class Dot {
     hitBottom() {
         return this.row === NUM_ROWS - 1;
     }
-
     canFall() {
         if (this.hitBottom()) return false;
         return this.game.board.isEmptyCell(this.row + 1, this.col);
     }
-
     fall() {
         if (this.canFall()) {
             this.row++;

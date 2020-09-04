@@ -21,8 +21,11 @@
   <component name="ChangeListManager">
     <list default="true" id="8c53b12f-32cf-45eb-9888-af7240a252ee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/game.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/game.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/board.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/board.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/brick.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/brick.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/dot.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/dot.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/game.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,6 +64,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -91,7 +95,9 @@
       <workItem from="1599121717395" duration="103000" />
       <workItem from="1599145872304" duration="77000" />
       <workItem from="1599145952248" duration="510000" />
-      <workItem from="1599186405436" duration="4682000" />
+      <workItem from="1599186405436" duration="7747000" />
+      <workItem from="1599208609248" duration="12000" />
+      <workItem from="1599211013886" duration="1344000" />
     </task>
     <servers />
   </component>
@@ -119,10 +125,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1119" y="258" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598854610147" />
-    <state x="739" y="273" key="FileChooserDialogImpl" timestamp="1599145947472">
+    <state x="739" y="273" key="FileChooserDialogImpl" timestamp="1599208618458">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="739" y="273" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1599145947472" />
+    <state x="739" y="273" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1599208618458" />
+    <state x="460" y="163" key="SettingsEditor" timestamp="1599203927611">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="460" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1599203927611" />
     <state x="1096" y="242" key="run.anything.popup" timestamp="1599040725234">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

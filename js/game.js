@@ -3,7 +3,10 @@ class Game {
         this.canvas = null;
         this.context = null;
         this.score = 0;
+        this.level = 1;
+        this.speed = 500;
         this.showScore = document.getElementById('score');
+        this.showLevel = document.getElementById('level');
     }
 
     init() {
@@ -16,7 +19,7 @@ class Game {
         // create the brick
         this.brick = new Brick(this);
 
-        // get keyboard
+        // get keyboard event
         this.listenKeyboard();
 
         // start the game
@@ -36,9 +39,10 @@ class Game {
     }
 
     startGame() {
-        setInterval(() => {
+        setTimeout(() => {
             this.brick.fall();
-        },  500);
+            this.startGame();
+        },  this.speed);
     }
 
     createNewBrick() {
@@ -71,7 +75,8 @@ class Game {
     loop() {
         this.draw();
         this.showScore.innerHTML = this.score;
-        setTimeout(() => this.loop(), 1);
+        this.showLevel.innerHTML = this.level;
+        setTimeout(() => this.loop(), 50);
     }
 
     clearScreen() {

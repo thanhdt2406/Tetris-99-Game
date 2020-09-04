@@ -3,7 +3,7 @@ class Brick {
         this.game = game;
         this.dots = [];
         this.data = [];
-        this.col = 0;
+        this.col = 3;
         this.row = 0;
 
         this.createData();

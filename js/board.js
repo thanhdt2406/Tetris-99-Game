@@ -23,6 +23,8 @@ class Board {
             while (this.isRowFull(row)) {
                 this.removeRow(row);
                 this.game.score += 1;
+                this.game.level = Math.ceil(this.game.score/5);
+                this.game.speed = Math.ceil(500/this.game.level);
             }
         }
     }
